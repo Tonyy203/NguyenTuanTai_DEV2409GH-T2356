@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các bộ chọn thông dụng với css</title>
+    <style>
+        body{
+            background-color: rgb(122, 213, 183);
+        }
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 2.5rem;
+        }
+        /* Bộ chọn thuộc tính id: #zone1, #catalog, ... */
+        #zone1{
+            border: 2px solid red;
+            background-color: #fff;
+            padding: 1rem;
+        }
+        /* Bộ chọn class: .class-name, .container, .row, .item, .. */
+        .container{
+            background-color: blanchedalmond;
+            margin: 2rem 2rem;
+            padding: 1rem;
+        }
+        .item{
+            color: green;
+        }
+        .btn{
+            border: 2px solid red;
+            border-radius: 3px;
+            padding: .3rem 1rem;
+            color: #fff;
+        }
+        .btn-red{
+            background-color: red;
+        }
+        .btn-green{
+            background-color: green;
+        }
+
+        /* Bộ chọn giá trị thuộc tính: input(type="text") (...) */
+
+        input[type='button']{
+            font-family: fantasy;
+            font-size: 1.5rem;
+        }
+
+        p.item{
+            font-size: 20px;
+        }
+        .sp-1{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Các bộ thông dụng với css</h1>
+
+    <br>
+    <pre>
+        - Bộ chọn phân tử: ví dụ: body, h1, section,...
+        - Bộ chọn thuộc tính id: #zone1, #catalog, ...
+        - Bộ chọn class: .class-name, .container, .row, .item, ...
+        - Bộ chọn giá trị thuộc tính: input(type="text") (...)
+    </pre>
+    </section> 
+    <section id="zone1">
+        <h2>Bộ chọn thuộc tính id: #zone1, #catalog, ...</h2>
+    </section> 
+    <section id="zone2" class="container">
+        <h2>Bộ chọn class: .class-name, .container, .row, .item, ..</h2>
+        <p class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi quo cum et beatae similique asperiores? Odit voluptatum, porro voluptas facilis consequuntur quia distinctio architecto nisi aspernatur expedita maxime libero.
+            <br>
+            <span class="sp-1">Price:123.45$</span>
+            <br>
+            <span class="sp-2">Old Price: 111.00$</span>
+        </p>
+        <input type="button" value="Button 1" class="btn btn-red">
+        <input type="button" value="Button 2" class="btn btn-green">
+        <input type="button" value="Login">
+    </section>
+</body>
+</html> 

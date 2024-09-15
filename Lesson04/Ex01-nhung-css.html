@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhungs CSS vào HTML</title>
+</head>
+<body>
+    <section id="nhung">
+        <h1>Nhúng CSS vào HTML</h1>
+        <hr>
+    </section>
+    <!-- style inline -->
+     <section id="style-inline">
+        <h2>Nhúng CSS trực tiếp vào phần tử HTML thông qua thuộc tính style</h2>
+        <p style="background-color: blanchedalmond; color: brown;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil error mollitia veritatis sint veniam. Molestias aperiam, vitae ratione enim maxime, soluta consectetur tempore modi labore, laudantium est ipsa corporis quasi.</p>
+     </section>
+
+     <!-- tag style -->
+      <section id="tag-style">
+        <h2>Viết các quy tắc trong phần tử style của trnag HTML</h2>
+        <pre>
+            Nên viết style trong phần head
+        </pre>
+        <br>
+        <style>
+            /* bộ chọn phần tử */
+            pre{
+                background-color: gray;
+            }
+            /* bộ chọn id */
+            #tag-style{
+                margin: 1rem;
+                padding: 1rem;
+                border: 1px solid red;
+            }
+        </style>
+      </section>
+
+      <!-- External style : file .css -->
+       <section id="External-style">
+            <h2>Sử dụng file css -> nhúng vào trang html thông qua: link /report</h2>
+            <br>
+            <pre>
+                <link rel="stylesheet" href="CSS/style.css">
+            </pre>
+       </section>
+</body>
+</html>
