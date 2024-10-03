@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Su dung bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Images/logo.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang Chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới Thiệu</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Liên hệ
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Tin Tức</a></li>
+                                <li><a class="dropdown-item" href="#">Thông Tin</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">#</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Tìm Kiếm" aria-label="Tìm Kiếm">
+                        <button class="btn btn-outline-success" type="submit">Tìm Kiếm</button>
+                    </form>
+                </div>
+            </div>
+            </nav>
+    </header>
+    <section>
+    <div class="home-abouUS">
+        <p class="d-inline-flex gap-1">
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                Giới Thiệu
+            </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                Nội thất của Hoàng Hoan chúng tôi tự hào là đức con tinh thần ra đời sau hơn 30 năm hoạt động trong
+                lĩnh vực kinh doanh đồ gỗ nội thất với thương hiệu ĐỒ GỖ HOÀNG HOAN nổi tiếng.
+
+                Tài nguyên của chúng tôi là đội ngũ kiến trúc sư tốt nghiệp ĐH Kiên Trúc Hà Nội với nhiều năm kinh
+                nghiệm, luôn tràn đầy nhiệt huyết và sức sáng tạo của tuổi trẻ. Thế mạnh của chúng tôi là sở hữu
+                xưởng nội thất hơn 10.000m2 tại Hà Nội sản xuất đa dạng các sản phẩm với giá cả luôn cạnh tranh
+            </div>
+        </div>
+    </div>
+    <div class="home-news">
+        <div class="row mx-auto">
+            <div class="card col-md-3" style="width: 18rem;">
+                <img src="Images/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tin Mới</h5>
+                    <p class="card-text">Nội thấy Hoàng Hoan được xây dựng dựa trên tình yêu, đam mê của tôi đối với
+                        nghề mộc và Khao khát mang những sản phẩm nội thất đẹp của mình đến với khách hàng thân yêu
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-md-3" style="width: 18rem;">
+                <img src="Images/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tin Mới</h5>
+                    <p class="card-text">Nội thấy Hoàng Hoan được xây dựng dựa trên tình yêu, đam mê của tôi đối với
+                        nghề mộc và Khao khát mang những sản phẩm nội thất đẹp của mình đến với khách hàng thân yêu
+                    </p>
+                    <a href="#" class="btn btn-primary">xem thêm</a>
+                </div>
+            </div>
+            <div class="card col-md-3" style="width: 18rem;">
+                <img src="Images/3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Tin Mới</h5>
+                <p class="card-text">Nội thấy Hoàng Hoan được xây dựng dựa trên tình yêu, đam mê của tôi đối với
+                    nghề mộc và Khao khát mang những sản phẩm nội thất đẹp của mình đến với khách hàng thân yêu
+                </p>
+            <a href="#" class="btn btn-primary">xem thêm</a>
+            </div>
+        </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img src="Images/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tin Mới</h5>
+                        <p class="card-text">Nội thấy Hoàng Hoan được xây dựng dựa trên tình yêu, đam mê của tôi đối với
+                            nghề mộc và Khao khát mang những sản phẩm nội thất đẹp của mình đến với khách hàng thân yêu
+                        </p>
+                        <a href="#" class="btn btn-primary">xem thêm</a>
+                    </div>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img src="Images/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tin Mới</h5>
+                        <p class="card-text">Nội thấy Hoàng Hoan được xây dựng dựa trên tình yêu, đam mê của tôi đối với
+                            nghề mộc và Khao khát mang những sản phẩm nội thất đẹp của mình đến với khách hàng thân yêu
+                        </p>
+                        <a href="#" class="btn btn-primary">xem thêm</a>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="Images/9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="Images/8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="Images/6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="Images/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
