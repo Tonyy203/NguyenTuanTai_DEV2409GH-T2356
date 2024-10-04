@@ -5,11 +5,22 @@
 html,body{
     font-family: font_strong;
     font-size: 16px;
-
 }
 @font-face {
     font-family:font_strong;
-    src:url(../fonts/fontawesome-webfont.eot) url(../fonts/fontawesome-webfont.svg) url();
+    src:url(../fonts/fontawesome-webfont.eot) ;
     font-weight:normal;
     font-style:normal;
    }
+@font-face {
+    font-family: font_1;
+    src: url(../fonts/Gotham-Ultra.otf);
+}
+@font-face {
+    font-family: font_2;
+    src: url(../fonts/glyphicons-halflings-regular.woff);
+}
+@font-face {
+    font-family: font_3;
+    src: url(../fonts/MULI-SEMIBOLD.TTF);
+}
